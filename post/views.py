@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.urls import reverse, reverse_lazy
 from django.views import View
 from django.contrib.auth import authenticate
+from gpt.models import QnA
 
 # Create your views here.
 
